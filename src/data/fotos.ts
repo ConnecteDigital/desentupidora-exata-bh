@@ -6,11 +6,11 @@ import type { ImageMetadata } from 'astro';
 const arquivos = import.meta.glob<{ default: ImageMetadata }>('../assets/fotos/*.jpg', { eager: true });
 
 const alts: Record<string, string> = {
-  'desentupimento-de-pia': 'Desentupidor da Desentupidora Exata BH desentupindo pia de cozinha',
-  'desentupimento-de-ralo': 'Desentupimento de ralo de banheiro com máquina de cabo rotativo',
-  'desentupimento-de-vaso-sanitario': 'Desentupimento de vaso sanitário em Belo Horizonte',
-  'desentupimento-de-esgoto': 'Desentupimento de rede de esgoto pela caixa de inspeção',
-  'limpa-fossa': 'Limpeza de fossa séptica em Belo Horizonte',
+  'desentupimento-de-pia': 'Desentupidor usando máquina para desentupir o cano da pia',
+  'desentupimento-de-ralo': 'Desentupimento de ralo com máquina de cabo rotativo',
+  'desentupimento-de-vaso-sanitario': 'Desentupidor desentupindo vaso sanitário com máquina',
+  'desentupimento-de-esgoto': 'Máquina de cabo rotativo desentupindo a rede de esgoto',
+  'limpa-fossa': 'Mangueira de sucção na limpeza de fossa séptica',
   equipe: 'Equipe da Desentupidora Exata BH em atendimento',
 };
 

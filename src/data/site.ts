@@ -1,8 +1,7 @@
 // Dados centrais da empresa. Altere aqui e o site inteiro é atualizado.
 
-// PENDENTE: número provisório. Trocar pelo WhatsApp/telefone real da empresa.
-// Formato: 55 + DDD + número, só dígitos
-const PHONE_DIGITS = '5531900000000';
+// WhatsApp e telefone. Formato: 55 + DDD + número, só dígitos
+const PHONE_DIGITS = '5531982670701';
 
 export const site = {
   name: 'Desentupidora Exata BH',
@@ -15,7 +14,8 @@ export const site = {
   phoneDigits: PHONE_DIGITS,
   // Exibição: (31) 90000-0000
   phoneDisplay: `(${PHONE_DIGITS.slice(2, 4)}) ${PHONE_DIGITS.slice(4, 9)}-${PHONE_DIGITS.slice(9)}`,
-  tel: `tel:+${PHONE_DIGITS}`,
+  // Link do botão Ligar (formato pedido pelo cliente: 0 + DDD + número)
+  tel: 'tel:031982670701',
   // PENDENTE: confirmar o tempo de chegada com o cliente
   arrivalMinutes: 30,
   description:
