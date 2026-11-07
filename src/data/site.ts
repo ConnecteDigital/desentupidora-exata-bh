@@ -14,8 +14,8 @@ export const site = {
   phoneDigits: PHONE_DIGITS,
   // Exibição: (31) 90000-0000
   phoneDisplay: `(${PHONE_DIGITS.slice(2, 4)}) ${PHONE_DIGITS.slice(4, 9)}-${PHONE_DIGITS.slice(9)}`,
-  // Link do botão Ligar (formato pedido pelo cliente: 0 + DDD + número)
-  tel: 'tel:031982670701',
+  // Link do botão Ligar no padrão do cliente: 0 + DDD + número (ex.: tel:031982670701)
+  tel: `tel:0${PHONE_DIGITS.slice(2)}`,
   // PENDENTE: confirmar o tempo de chegada com o cliente
   arrivalMinutes: 30,
   description:
