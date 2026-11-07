@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://desentupidoraexatabh.com.br/sitemap-index.xml
