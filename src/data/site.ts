@@ -33,4 +33,5 @@ export function whatsappUrl(message: string = DEFAULT_WHATSAPP_MESSAGE) {
 export const googleTagId = '';
 
 // Contêineres do Google Tag Manager (ex.: GTM-XXXXXXX). Lista vazia = não instala nenhum.
-export const gtmIds: string[] = ['GTM-NV4BFCLR', 'GTM-KFDHPJR2'];
+// Só um contêiner: um segundo GTM com a mesma tag do Google Ads impedia a conversão do WhatsApp de ser enviada.
+export const gtmIds: string[] = ['GTM-KFDHPJR2'];
